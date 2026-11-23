@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float temperature;
+
+    printf("Enter Temperature: ");
+    scanf("%f", &temperature);
+
+    printf("\nTemperature Sensor Reading: %.2f C\n", temperature);
+
+    if (temperature > 35)
+    {
+        printf("Warning: High Temperature!\n");
+    }
+    else
+    {
+        printf("Temperature is Normal.\n");
+    }
+
+    return 0;
+}
